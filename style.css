@@ -8,6 +8,38 @@
 }
 
 
+.progress1 {
+    border-radius: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    height: 7px;
+    font-size: 0.75rem;
+}
+
+.progress-bar1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 30px;
+    transition: width 0.6s ease;
+}
+
+.progress-circle {
+    width:12px;
+    height:12px;
+    position:absolute;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.07);
+    border-radius:50%;
+    right:0;
+}
+
+
 
 .sbar {
     height: 42px;
