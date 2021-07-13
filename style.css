@@ -7,6 +7,9 @@
     background-color: #ffffff !important;
 }
 
+.padd-top{
+    padding-top: 40px !important;
+}
 
 .progress1 {
     border-radius: 30px;
@@ -287,6 +290,7 @@ textarea {
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 5px;
     position: relative;
+    height: 165px;
 }
 
 .drag-file-input {
@@ -781,7 +785,7 @@ input:checked + .slider:before {
 
 
     .add-client-btn1 {
-        width: 95px !important; 
+        width: 90px !important; 
         height: 35px !important; 
         background: #615EFF !important; 
         font-size: 15px;
@@ -793,7 +797,7 @@ input:checked + .slider:before {
     }
 
     .add-client-btn2 {
-        width: 95px;
+        width: 90px;
         height: 35px;
         color: #615EFF;
         background: transparent !important;
